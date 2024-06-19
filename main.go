@@ -27,5 +27,6 @@ func main() {
 	// Start the server
 	if err := router.Run(":" + port); err != nil {
 		log.Fatalf("Failed to start API server: %v", err)
+
 	}
 }
